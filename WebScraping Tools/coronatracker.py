@@ -23,12 +23,15 @@ print("Recovery to Death ratio is "+str(round(ratio))+":1")
 print("Victims in "+str(tables[1134].text.strip(' '))+": {}".format(victims_nepal))
 print("\nSource: Worldometers")
 
+list_of_recipients = ['email1', 'email2', 'email3']
+
+
 if int(deaths_n) > 6200:
     gmail_user = 'my_email'
     gmail_password = 'my_gmail_password'
 
     sent_from = gmail_user
-    to = ['shashankdutt7@gmail.com', 'rohanu25@gmail.com']
+    to = list_of_recipients
     subject = 'COVID-19 Death Toll crossed 6000!'
     body = 'More than 6000 people died of coronavirus!'
     email_text = """\
@@ -50,11 +53,11 @@ if int(deaths_n) > 6200:
     except:
         print ('Something went wrong...')
 if int(v_n_strip) > 1:
-    gmail_user = 'rohaniam777@gmail.com'
-    gmail_password = 'silicosis'
+    gmail_user = 'my@gmail.com'
+    gmail_password = 'my_gmail_password'
 
     sent_from = gmail_user
-    to = ['shashankdutt7@gmail.com', 'rohanu25@gmail.com']
+    to = list_of_recipients
     subject = 'COVID-19 - New victim in Nepal'
     body = 'New victim of Coronavirus found in Nepal. Stay safe!'
     email_text = """\
