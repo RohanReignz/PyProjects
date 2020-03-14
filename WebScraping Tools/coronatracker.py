@@ -24,8 +24,8 @@ print("Victims in "+str(tables[1134].text.strip(' '))+": {}".format(victims_nepa
 print("\nSource: Worldometers")
 
 if int(deaths_n) > 6200:
-    gmail_user = 'rohaniam777@gmail.com'
-    gmail_password = 'silicosis'
+    gmail_user = 'my_email'
+    gmail_password = 'my_gmail_password'
 
     sent_from = gmail_user
     to = ['shashankdutt7@gmail.com', 'rohanu25@gmail.com']
