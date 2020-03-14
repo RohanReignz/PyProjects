@@ -4,7 +4,7 @@ import os
 from datetime import datetime
 from time import sleep
 
-DOWNLOAD_DIRECTORY = 'your/path/to/download/directory/' # example: 'E:/Downloads/', remember to put / in the end
+DOWNLOAD_DIRECTORY = 'path/to/download/directory' # example: 'E:/Downloads/', remember to put / in the end
 while datetime.minute() != 30:
     sleep(300)
     if datetime.minute() == 30:
